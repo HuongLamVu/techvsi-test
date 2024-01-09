@@ -10,15 +10,15 @@ const Landing: React.FC = () => {
         <div>
             <div className="list">
                 <div className="item">
-                    <div className="heading red">
+                    <div className="item__heading red">
                         <img src={Image0} alt="" />
-                        <div className="content">
+                        <div className="item__content">
                             <h2>NORMAL</h2>
-                            <span className='price'>$500</span>
-                            <span className='status'>STARTING</span>
+                            <span className='item__price'>$500</span>
+                            <span className='item__status'>STARTING</span>
                         </div>                  
                     </div>
-                    <div className="body">
+                    <div className="item__body">
                         <ul>
                             <li>2 Room - $500</li>
                             <li>3 Room - $600</li>
@@ -30,20 +30,20 @@ const Landing: React.FC = () => {
                             <li>Masionette - $1250</li>
                         </ul>
                     </div>
-                    <div className="footer">
+                    <div className="item__footer">
                         <button className='btn btn-primary'>Enquire now</button>
                     </div>
                 </div>
                 <div className="item active">
-                    <div className="heading yellow">
+                    <div className="item__heading yellow">
                         <img src={Image1} alt="" />
-                        <div className="content text-black">
+                        <div className="item__content text-black">
                             <h2>STANDARD</h2>
-                            <span className='price'>$600</span>
-                            <span className='status'>STARTING</span>
+                            <span className='item__price'>$600</span>
+                            <span className='item__status'>STARTING</span>
                         </div>
                     </div>
-                    <div className="body">
+                    <div className="item__body">
                         <ul>
                             <li>2 Room - $600</li>
                             <li>3 Room - $800</li>
@@ -55,21 +55,21 @@ const Landing: React.FC = () => {
                             <li>Masionette - $16500</li>
                         </ul>
                     </div>
-                    <div className="footer">
+                    <div className="item__footer">
                         <button className='btn btn-primary'>Enquire now</button>
                     </div>
 
                 </div>
                 <div className="item">
-                    <div className="heading green">
+                    <div className="item__heading green">
                         <img src={Image2} alt="" />
-                        <div className="content">
+                        <div className="item__content">
                             <h2>SUPREME</h2>
-                            <span className='price'>$700</span>
-                            <span className='status'>STARTING</span>
+                            <span className='item__price'>$700</span>
+                            <span className='item__status'>STARTING</span>
                         </div>
                     </div>
-                    <div className="body">
+                    <div className="item__body">
                         <ul>
                             <li>2 Room - $700</li>
                             <li>3 Room - $1000</li>
@@ -81,10 +81,9 @@ const Landing: React.FC = () => {
                             <li>Masionette - $2050</li>
                         </ul>
                     </div>
-                    <div className="footer">
+                    <div className="item__footer">
                         <button className='btn btn-primary'>Enquire now</button>
                     </div>
-
                 </div>
             </div>
         </div>
