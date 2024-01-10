@@ -252,11 +252,19 @@
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0;
+    cursor: pointer;
 
     &-primary {
         background: #2C3941;
         color: #FFFFFF;
+        border: 1px solid #2C3941;
+        transition: all .3s ease;
 
+        &:hover {
+            background: #FFFFFF;
+            color: #2C3941;
+            box-shadow: -3px 3px 4.8px 0px #00000026, 2px 3px 4px 0px #00000026;
+        }
     }
 }
 
