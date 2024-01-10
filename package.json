@@ -40,6 +40,7 @@
   "devDependencies": {
     "file-loader": "^6.2.0",
     "node-sass": "^9.0.0",
+    "react-equal-height": "^1.2.2",
     "url-loader": "^4.1.1"
   }
 }

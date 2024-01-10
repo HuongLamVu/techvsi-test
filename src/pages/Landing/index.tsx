@@ -1,4 +1,6 @@
 import React from 'react';
+import { EqualHeight, EqualHeightElement } from 'react-equal-height';
+
 import './style.scss';
 
 import Image0 from '../../assets/images/np_matex-216x300.png';
@@ -22,16 +24,18 @@ const Landing: React.FC = () => {
                     </div>
                     <div className="item__body">
                         <div className="item__description">
-                            <ul>
-                                <li>2 Room - $500</li>
-                                <li>3 Room - $600</li>
-                                <li>4 Room - $700</li>
-                            </ul>
-                            <ul>
-                                <li>5 Room - $850</li>
-                                <li>EA/3 Gen - $1000</li>
-                                <li>Masionette - $1250</li>
-                            </ul>
+                            <EqualHeight>
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>2 Room - $500</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>3 Room - $600</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>4 Room - $700</EqualHeightElement></li>
+                                </ul>
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>5 Room - $850</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>EA/3 Gen - $1000</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>Masionette - $1250</EqualHeightElement></li>
+                                </ul>
+                            </EqualHeight>
                         </div>
                         <div className="item__btn">
                             <button className='btn btn-primary'>Enquire now</button>
@@ -51,16 +55,19 @@ const Landing: React.FC = () => {
                     </div>
                     <div className="item__body">
                         <div className="item__description">
-                            <ul>
-                                <li>2 Room - $600</li>
-                                <li>3 Room - $800</li>
-                                <li>4 Room - $900</li>
-                            </ul>
-                            <ul>
-                                <li>5 Room - $1100</li>
-                                <li>EA/3 Gen - $1250</li>
-                                <li>Masionette - $16500</li>
-                            </ul>
+                            <EqualHeight>
+
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>2 Room - $600</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>3 Room - $800</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>4 Room - $900</EqualHeightElement></li>
+                                </ul>
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>5 Room - $1100</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>EA/3 Gen - $1250</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>Masionette - $16500</EqualHeightElement></li>
+                                </ul>
+                            </EqualHeight>
                         </div>
                         <div className="item__btn">
                             <button className='btn btn-primary'>Enquire now</button>
@@ -81,16 +88,19 @@ const Landing: React.FC = () => {
                     </div>
                     <div className="item__body">
                         <div className="item__description">
-                            <ul>
-                                <li>2 Room - $700</li>
-                                <li>3 Room - $1000</li>
-                                <li>4 Room - $1100</li>
-                            </ul>
-                            <ul>
-                                <li>5 Room - $1350</li>
-                                <li>EA/3 Gen - $1500</li>
-                                <li>Masionette - $2050</li>
-                            </ul>
+                            <EqualHeight>
+
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>2 Room - $700</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>3 Room - $1000</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>4 Room - $1100</EqualHeightElement></li>
+                                </ul>
+                                <ul>
+                                    <li><EqualHeightElement name='Description'>5 Room - $1350</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>EA/3 Gen - $1500</EqualHeightElement></li>
+                                    <li><EqualHeightElement name='Description'>Masionette - $2050</EqualHeightElement></li>
+                                </ul>
+                            </EqualHeight>
                         </div>
                         <div className="item__btn">
                             <button className='btn btn-primary'>Enquire now</button>
